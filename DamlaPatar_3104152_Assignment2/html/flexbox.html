@@ -1,0 +1,154 @@
+<!DOCTYPE html> <!-- indicates that this is an HTML5 document -->
+<html lang="en">
+<!-- starts the HTML document and sets the language to English -->
+
+<head>
+	<meta charset="UTF-8"> <!-- sets the character encoding to UTF-8 -->
+	<title>Damla Patar - 3104152</title> <!-- sets the title of the webpage -->
+	<link rel="stylesheet" href="../css/style.css"> <!-- links the external stylesheet to the HTML document -->
+	<!--includes a viewport meta tag for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- sets the viewport meta tag for responsive design -->
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Damla Patar - 3104152</h1> <!-- sets the main heading of the webpage -->
+		<nav>
+			<!--The <nav> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. -->
+			<!-- starts the navigation section of the webpage -->
+			<ul>
+				<!--The ul element represents an unordered list of items; that is, a list in which changing the order of the items would not change the meaning of list. -->
+				<!-- starts an unordered list of navigation links -->
+				<li>
+					<!--<li>: The List Item element. The <li> HTML element is used to represent an item in a list.  -->
+					<!--The <a> tag defines a hyperlink, which is used to link from one page to another.
+		The most important attribute of the <a> element is the href attribute, which indicates the link's destination. -->
+					<a class="activite" href="index.html">🏡HOME</a> <!-- sets a navigation link to the homepage with an emoji icon -->
+				</li>
+				<li>
+					<!--<li>: The List Item element. The <li> HTML element is used to represent an item in a list.  -->
+					<!--The <a> tag defines a hyperlink, which is used to link from one page to another.
+		The most important attribute of the <a> element is the href attribute, which indicates the link's destination. -->
+					<a href="about.html">👩🏻ABOUT</a> <!-- sets a navigation link to the about page with an emoji icon -->
+				</li>
+				<li>
+					<!--<li>: The List Item element. The <li> HTML element is used to represent an item in a list.  -->
+					<!--The <a> tag defines a hyperlink, which is used to link from one page to another.
+		The most important attribute of the <a> element is the href attribute, which indicates the link's destination. -->
+					<a href="bibliography.html">📚Bibliography</a> <!-- sets a navigation link to the bibliography page with an emoji icon -->
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+	<main>
+
+		<section class="flexbox">
+			<!--An H2 tag marks the first sub-heading after your document's main heading.  -->
+			<h2>
+				<img class="img" src="../images/icon1.png">
+				<a href="flexbox.html" class="link" style="color: black">Flex Box</a>
+			</h2>
+			<p>
+				<br><br>
+				<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h2>What is Flex Box?</h2>
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			Flexbox is a layout model introduced in CSS3, which helps to create flexible and responsive layouts.<br>
+			It is designed to provide a simpler and more efficient way to distribute space and align items within a container, regardless of the size and dimensions of the container or its contents.<br>
+			In this report, we will discuss the various features of flexbox and how they can be used to create responsive layouts.
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Features of Flex Box</h4>
+			<!--The <a> tag defines a hyperlink, which is used to link from one page to another.
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination. -->
+			<a href="https://www.bitdegree.org/learn/css-flexbox">
+				<!--The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements.-->
+				<div class="flex-container">
+					<div>
+						<img class="img_flex1 " src="../images/flex1.JPG">
+					</div>
+					<!--The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements.-->
+					<div>
+						<img class="img_flex2 " src="../images/flex2.JPG">
+					</div>
+					<!--The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements.-->
+					<div>
+						<img class="img_flex2 " src="../images/flex3.JPG">
+					</div>
+				</div>
+			</a>
+
+
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h3>Flex container:</h3>
+			A flex container is the parent element that holds the flex items. By setting the display property of an element to "flex", it becomes a flex container. All direct children of a flex container become flex items.
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Flex items:</h4>
+			Flex items are the child elements within a flex container that can be arranged using flexbox. By default, flex items are arranged in a single row, but they can also be arranged in columns or in both directions. Flex items can also be aligned
+			and distributed within the container using various flexbox properties.
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4> Flex direction:</h4>
+			The flex-direction property is used to specify the direction of the flex container. It can be set to row (horizontal), column (vertical), row-reverse (horizontal, reversed), or column-reverse (vertical, reversed).
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Flex wrap:</h4>
+			The flex-wrap property is used to specify whether the flex items should wrap to the next line if there is not enough space in the container. It can be set to nowrap (default), wrap, or wrap-reverse.
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Flex flow:</h4>
+			The flex-flow property is a shorthand for the flex-direction and flex-wrap properties. It is used to set both properties at once.
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Justify content:</h4>
+			The justify-content property is used to align the flex items along the main axis (the direction specified by the flex-direction property). It can be set to flex-start (default), flex-end, center, space-between, space-around, or space-evenly.
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Align items:</h4>
+			The align-items property is used to align the flex items along the cross-axis (the perpendicular axis to the main axis). It can be set to flex-start, flex-end, center, baseline, or stretch (default).
+			<br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<h4>Align content:</h4>
+			The align-content property is used to align the rows or columns of flex items when there is extra space in the container. It can be set to flex-start, flex-end, center, space-between, space-around, or stretch (default).
+			<br><br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+
+			<h4>Advantages of Flexbox</h4>
+			-Flexbox allows for easy creation of responsive layouts that adjust to different screen sizes and devices.<br>
+			-It allows for easy vertical centering of elements.<br>
+			-Flexbox makes it easier to align and distribute elements within a container, without using floats or positioning.<br>
+			-It simplifies the code required to create complex layouts.<br>
+			-Flexbox can be used to create complex grids without the need for external libraries.
+			<br><br>
+			<!--The <br> HTML element produces a line break in text (carriage-return).  -->
+			<!--The href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the <a> tag will not be a hyperlink. -->
+			<a href="https://cynoteck.com/blog-post/css-grid-vs-flexbox/"><img class="img_versus" src="../images/versus.JPG"></a>
+			<!--The HTML <h4> tag represents a level 4 heading in an HTML document.  -->
+			<h4>Conclusion</h4>
+			Flexbox is a powerful layout tool that makes it easier to create responsive and dynamic layouts. <br>
+			By using its various properties, developers can create complex designs without resorting to complicated code or external libraries. <br>
+			Its advantages make it a popular choice among front-end developers for creating modern, responsive web designs.
+			</p>
+
+		</section>
+	</main>
+	<p></p>
+	<!--The <footer> HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element.  -->
+	<footer>
+		<h2>
+			Damla Patar - 3104152
+			<!--The <a> tag defines a hyperlink, which is used to link from one page to another.
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination. -->
+			<p><a href="mailto:damlapatar@gmail.com" class="link">damlapatar@gmail.com</a>
+				Copyright@2023</p>
+		</h2>
+	</footer>
+</body>
+
+</html>
